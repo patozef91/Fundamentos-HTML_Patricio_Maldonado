@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <meta name="description" content="Proyecto de Fundamentos de HTML- Hoja de Vida">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <img src="../img/logoPM.svg" alt="Logo Patricio Maldonado" height="200px">
+      <h1>Hoja de Vida</h1><br>
+    <h2>Nombres: </h2> <h3>Patricio Octavio</h3>
+    <h2>Apellidos: </h2> <h3>Maldonado Rivera</h3>
+    <h2>Fecha de Nacimiento: </h2> <h3>31 Enero 1991</h3>
+    <h2>Lugar de Nacimiento: </h2> <h3>Quito-Ecuador</h3>
+
+    <nav>
+      <p>
+        <a href="../index.html"> Inicio</a> |
+        <a href="Educacion.html"> Educación</a> |
+        <a href="experiencia.html">Experiencia </a><br><br><br>
+      </p>
+    </nav>
+  </header>
+    <h2>Educación</h2>
+    <table border="1" cellpadding ="10" cellspacing="2">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>2016</td>
+          <td>Universidad de las Américas</td>
+          <td>Quito</td>
+          <td>Si</td>
+        </tr>
+
+        <tr>
+          <td>2019</td>
+          <td>MUSEUM OF MODERN ART</td>
+          <td>on line</td>
+          <td>Si</td>
+        </tr>
+
+        <tr>
+          <td>2019</td>
+          <td>Museo Reina Sofía</td>
+          <td>on line</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Agregar Estudios</h2>
+    <form autocomplete="on" name="Formulario Estudios">
+        <p>Año
+          <select name="añosEstudios">
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+          </select>
+        </p>
+
+        <p>Institución
+          <input type="text" maxlength="50">
+        </p>
+
+        <p>Lugar
+          <input type="text" maxlength="20">
+        </p>
+
+        <p>
+          <input type="submit">
+        </p>
+    </form>
+  </body>
+
+  <footer>
+    <strong>email: </strong> pomr.91@gmail.com | <strong>Telf: </strong> +593912345678 | <strong>Instagram: </strong> @patozef
+  </footer>
+</html>
