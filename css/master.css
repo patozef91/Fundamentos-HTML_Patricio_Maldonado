@@ -5,3 +5,36 @@ body{
 footer{
   margin-top: 50px;
 }
+
+#contenedor{
+  font-family: helvetica;
+  font-size: 16px;
+}
+
+#encabezado{
+  display: block;
+  margin: 0 auto;
+}
+
+.itemIdioma{
+  list-style-type: square;
+}
+
+/* Pone un margen a todo el contenido de la página en relación al viewport */
+*{
+  margin: 1vh 1vw;
+}
+
+/* selecciona los h3 que estén precedidos directamente por un h2 */
+h2 + h3{
+  font-weight: lighter;
+}
+
+/* parrafos que esten precedidos por un h2 */
+h2 ~ p{
+  text-align: justify;
+}
+
+ul li{
+  font-weight: bold;
+}
