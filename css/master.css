@@ -38,3 +38,7 @@ h2 ~ p{
 ul li{
   font-weight: bold;
 }
+
+a[href$="html"]:visited{
+  color:white;
+}
